@@ -8,7 +8,7 @@ export const DATA = {
   location: "Guwahati, Assam",
   locationLink: "",
   description:
-    "Full-stack Developer with a passion for AI, frontend, and backend technologies. Constantly exploring new challenges and building innovative solutions. Find me on GitHub and LinkedIn and Twiiter, always sharing new projects and insights.",
+    "Full-stack Developer with an experience of 2 years and a passion for AI, frontend, and backend technologies. Constantly exploring new challenges and building innovative solutions. Find me on GitHub and LinkedIn and Twiiter, always sharing new projects and insights.",
   summary:
     "In 2024, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Littlebox, conducted research at IIT Guwahati, and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
   avatarUrl: "/profile3.jpeg",
