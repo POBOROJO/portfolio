@@ -266,7 +266,7 @@ export const DATA = {
       dates: "May 2024 - August 2024",
       location: "Remote",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Was part of a team in developing the backend for a web application that helps people find and book fligts for their trips.",
       image: "/girl.jpeg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
