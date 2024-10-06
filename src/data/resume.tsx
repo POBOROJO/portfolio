@@ -264,7 +264,7 @@ export const DATA = {
     {
       title: "Girlscript Summer of Code 2024",
       dates: "May 2024 - August 2024",
-      location: "Waterloo, Ontario",
+      location: "Remote",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image: "/girl.jpeg",
