@@ -31,6 +31,7 @@ export const DATA = {
     "Shadcn UI",
     "Git",
     "Github",
+    "Bash",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -268,7 +269,6 @@ export const DATA = {
       description:
         "Was part of a team in developing the backend for a web application that helps people find and book fligts for their trips.",
       image: "/girl.jpeg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
           title: "Link",
