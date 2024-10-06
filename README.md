@@ -13,8 +13,6 @@ Made from scratch Nextjs portfolio with magic ui for animations and components.
 - 📦 Framer Motion
 - 📦 React
 
-
-1. First clone the repo
 ## Getting Started
 
 ### To make any changes in the code
