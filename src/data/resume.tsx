@@ -29,6 +29,7 @@ export const DATA = {
     "TailwindCSS",
     "Bootstrap",
     "Shadcn UI",
+    "Magic UI",
     "Git",
     "Github",
     "Bash",
