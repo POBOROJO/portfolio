@@ -207,12 +207,14 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in college, I attended {DATA.hackathons.length}{" "}
-                  + hackathons and competitions. People from diverse backgrounds
-                  came together to build innovative solutions in just 2-3 days.
-                  It was inspiring to witness the creativity and passion within
-                  these teams, showing how driven individuals can bring
-                  impactful ideas to life in a short amount of time.
+                  During my time in college, I have attended{" "}
+                  {DATA.hackathons.length} + hackathons and competitions.
+                  It&apos;s been inspiring to witness people from diverse
+                  backgrounds come together to build innovative solutions in
+                  just 2-3 days. These experiences have shown me how driven
+                  individuals can bring impactful ideas to life in a short
+                  amount of time, and I look forward to continuing this journey
+                  as I complete my final year.
                 </p>
               </div>
             </div>

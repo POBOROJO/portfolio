@@ -8,7 +8,7 @@ export const DATA = {
   location: "Guwahati, Assam",
   locationLink: "",
   description:
-    "Full-stack Developer with an experience of 2 years and a passion for AI, frontend, and backend technologies. Constantly exploring new challenges and building innovative solutions. Find me on GitHub and LinkedIn and Twiiter, always sharing new projects and insights.",
+    "Full-stack Developer with an experience of 2 years and a passion for AI, frontend, and backend technologies. Constantly exploring new challenges and building innovative solutions. Find me on GitHub,LinkedIn and Twitter, always sharing new projects and insights.",
   summary:
     "In 2024, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Littlebox, conducted research at IIT Guwahati, and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
   avatarUrl: "/profile3.jpeg",
@@ -249,10 +249,10 @@ export const DATA = {
     },
     {
       title: "Ideavision 2024",
-      dates: "August 23rd - 24th, 2018",
+      dates: "August 23rd - 24th, 2024",
       location: "Guwahati, Assam",
       description:
-        "Secured 2nd position as part of a team for presenting an innovative solution in Ideavision competition under the Institution Innovation Council.",
+        "Secured 2nd position as part of a team for presenting an innovative solution in Ideavision competition under the Institution's Innovation Council.",
       icon: "public",
       image: "/ideavision.jpeg",
       links: [
@@ -268,7 +268,7 @@ export const DATA = {
       dates: "May 2024 - August 2024",
       location: "Remote",
       description:
-        "Was part of a team in developing the backend for a web application that helps people find and book fligts for their trips.",
+        "Was part of a team in developing the backend for a web application that helps people find and book flights for their trips.",
       image: "/girl.jpeg",
       links: [
         {
