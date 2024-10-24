@@ -58,7 +58,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/ParijatBhattac4",
+        url: "https://twitter.com/poborojo",
         icon: Icons.x,
 
         navbar: true,
@@ -77,7 +77,7 @@ export const DATA = {
       },
       "Download CV": {
         name: "Download Resume",
-        url: "/Parijat2.pdf",
+        url: "/Parijat4.pdf",
         icon: Icons.download,
         navbar: true,
       },
