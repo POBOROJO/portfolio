@@ -234,9 +234,10 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://utfs.io/f/NtrpVLRyI4W6OZLzYG662RDZHM7GKrXUToQjVNetYx3WSPwb",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6TzqDaljdTq8uk9t0cWQ6PZeaALBU3SgJzoYw",
+      unoptimized: true,
+      video: "",
     },
   ],
   hackathons: [
