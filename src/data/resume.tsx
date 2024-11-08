@@ -11,7 +11,8 @@ export const DATA = {
     "Full-stack Developer with an experience of 2 years and a passion for AI, frontend, and backend technologies. Constantly exploring new challenges and building innovative solutions. Find me on GitHub,LinkedIn and Twitter, always sharing new projects and insights.",
   summary:
     "In 2024, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Littlebox, conducted research at IIT Guwahati, and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
-  avatarUrl: "/profile3.jpeg",
+  avatarUrl:
+    "https://utfs.io/f/NtrpVLRyI4W6A85RC3VMp6lciJjUWPSV20T4eDnCKIuXFvLo",
   skills: [
     "React",
     "Next.js",
@@ -77,7 +78,7 @@ export const DATA = {
       },
       "Download CV": {
         name: "Download Resume",
-        url: "/Parijat4.pdf",
+        url: "https://drive.google.com/file/d/187mZFa06HwY0I7rcoYSMCb8KhAVgTPrL/view",
         icon: Icons.download,
         navbar: true,
       },
@@ -103,7 +104,8 @@ export const DATA = {
       href: "https://www.iitg.ac.in/cse/",
       location: "Guwahati, Assam",
       title: "Summer Intern",
-      logoUrl: "/iitg.jpeg",
+      logoUrl:
+        "https://utfs.io/f/NtrpVLRyI4W6aCnZdlDiGV4tdcK2sO1CekqybYAUgThW8DxJ",
       start: "July 2023",
       end: "August 2023",
       description:
@@ -115,7 +117,8 @@ export const DATA = {
       school: "Assam Engineering College",
       href: "https://aec.ac.in/",
       degree: "B.Tech in Computer Science and Engineering",
-      logoUrl: "/aec.png",
+      logoUrl:
+        "https://utfs.io/f/NtrpVLRyI4W6V5YbJMuIiUdq0wJSs7lYcxbKRgB3Cvy61Eo2",
       start: "2021",
       end: "2025",
     },
@@ -141,7 +144,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/krishna.jpg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6kwbE0FzOHWeKjiqvQGgP07znVosuyXBcUJ3M",
       video: "",
     },
     {
@@ -175,7 +179,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/justified.webp",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6uk3uw4iB3bX5ltRJIuVpPgrKa7dxLkUvDs6S",
+      unoptimized: true,
       video: "",
     },
     {
@@ -198,7 +204,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/VR.jpeg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6iNe3ObZXWgVdjMJYbSlw9nm3e41N0EhTtz62",
       video: "",
     },
     {
@@ -227,8 +234,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/gdsc.webp",
-      video: "",
+      image: "",
+      video:
+        "https://utfs.io/f/NtrpVLRyI4W6OZLzYG662RDZHM7GKrXUToQjVNetYx3WSPwb",
     },
   ],
   hackathons: [
@@ -254,7 +262,8 @@ export const DATA = {
       description:
         "Secured 2nd position as part of a team for presenting an innovative solution in Ideavision competition under the Institution's Innovation Council.",
       icon: "public",
-      image: "/ideavision.jpeg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6gNRq8d43yZMQtuhaV9qUoYGDxXsR6dK3PH0n",
       links: [
         {
           title: "Link",
@@ -269,7 +278,8 @@ export const DATA = {
       location: "Remote",
       description:
         "Was part of a team in developing the backend for a web application that helps people find and book flights for their trips.",
-      image: "/girl.jpeg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6ABC7kuVMp6lciJjUWPSV20T4eDnCKIuXFvLo",
       links: [
         {
           title: "Link",
@@ -284,7 +294,8 @@ export const DATA = {
       location: "Guwahati, Assam",
       description:
         "Earned 1st position in the 'DSA Code War' event as part of a skilled team.",
-      image: "/codewar.jpeg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6BzovznILscnE5TtZMhQqIlxHb6ueJGpUCz7S",
       links: [],
     },
     {
@@ -293,7 +304,8 @@ export const DATA = {
       location: "Guwahati, Assam",
       description:
         "Secured 1st position in circuit building competition in the 'CIRCUIT UNTANGLED' event.",
-      image: "robo.jpg",
+      image:
+        "https://utfs.io/f/NtrpVLRyI4W6y9s4VSQoen6h2CbMXHql8ZGf3iuYJVsDFjKQ",
       // win: "Best Data Hack",
       links: [
         {

@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  unoptimized?: boolean;
 }
 
 export function ProjectCard({
@@ -39,6 +40,7 @@ export function ProjectCard({
   video,
   links,
   className,
+  unoptimized,
 }: Props) {
   return (
     <Card
@@ -67,6 +69,7 @@ export function ProjectCard({
             width={500}
             height={300}
             className="h-40 w-full overflow-hidden object-cover object-top"
+            unoptimized={unoptimized}
           />
         )}
       </Link>
