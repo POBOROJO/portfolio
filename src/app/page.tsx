@@ -8,14 +8,13 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import IconCloud from "@/components/ui/icon-cloud";
+import {IconCloud} from "@/components/magicui/icon-cloud";
 
 const BLUR_FADE_DELAY = 0.04;
 
 const slugs = [
   "typescript",
   "javascript",
-  "java",
   "react",
   "tailwindcss",
   "html5",
@@ -48,6 +47,10 @@ const slugs = [
 ];
 
 export default function Page() {
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
+  );
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
@@ -148,9 +151,9 @@ export default function Page() {
         </div>
       </section>
       <section id="icon" className="flex items-center justify-center">
-        <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg bg-background pb-20 pt-8 ">
+        <div className="relative flex size-full items-center justify-center overflow-hidden rounded-lg bg-background">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
-            <IconCloud iconSlugs={slugs} />
+            <IconCloud images={images}/>
           </BlurFade>
         </div>
       </section>
