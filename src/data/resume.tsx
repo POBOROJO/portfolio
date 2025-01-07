@@ -125,6 +125,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Chill Guy Leetcode Analyzer",
+      href: "https://chillguy-leetcode.vercel.app/",
+      dates: "Dec 2024 - Jan 2025",
+      active: true,
+      description:
+        "With a focus on making coding fun and insightful, I developed ChillGuy LeetCode Analyzer, a web app that calculates your Chill Guy Percentage based on LeetCode stats. It features personalized problem recommendations, profile comparisons, and tailored insights to boost motivation and skills, engaging 250+ daily users within its first week of launch.",
+      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Gemini API", "Framer Motion", "Magic UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://chillguy-leetcode.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/POBOROJO/Chill-guy-Leetcode",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "",
+      video: "https://utfs.io/f/NtrpVLRyI4W68OXRadJNfDhxLcKJO2Aui1lyZTedkYnsXVRr",
+    },
+    {
       title: "Kanha GPT",
       href: "https://kanha-gpt.netlify.app/",
       dates: "June 2024 - Present",
@@ -170,12 +194,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/MET4L-DS/AskMe",
+          href: "https://law-gpt.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://law-gpt.netlify.app/",
+          href: "https://github.com/MET4L-DS/AskMe",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -183,6 +207,31 @@ export const DATA = {
         "https://utfs.io/f/NtrpVLRyI4W6uk3uw4iB3bX5ltRJIuVpPgrKa7dxLkUvDs6S",
       unoptimized: true,
       video: "",
+    },
+    {
+      title: "Portfolio",
+      href: "https://parijat.vercel.app/",
+      dates: "Oct 2024 - Nov 2024",
+      active: true,
+      description:
+        "I created a dynamic portfolio website using Next.js, featuring Magic UI for captivating animations and interactive components. This fully responsive platform showcases my projects and skills, utilizing a seamless blend of TypeScript, Tailwind CSS, and Framer Motion to deliver a visually engaging and professional online presence. Designed with markdown integration for easy updates, this portfolio reflects my expertise in crafting elegant and functional web solutions.",
+      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Magic UI", "Framer Motion"],
+      links: [
+        {
+          type: "Website",
+          href: "https://parijat.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/POBOROJO/portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "",
+      video: "https://utfs.io/f/NtrpVLRyI4W6SY7w3asPCLqz7vF1oDRY3fZn6M9isxpthNKI",
+      unoptimized: true,
     },
     {
       title: "VirtualR",
@@ -195,12 +244,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/POBOROJO/PRACTICE/tree/main/tailwind/practice1",
+          href: "https://virtualr-nine.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://virtualr-nine.vercel.app/",
+          href: "https://github.com/POBOROJO/PRACTICE/tree/main/tailwind/practice1",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -297,7 +346,11 @@ export const DATA = {
         "Earned 1st position in the 'DSA Code War' event as part of a skilled team.",
       image:
         "https://utfs.io/f/NtrpVLRyI4W6BzovznILscnE5TtZMhQqIlxHb6ueJGpUCz7S",
-      links: [],
+      links: [{
+        title: "Link",
+        icon: <Icons.globe className="h-4 w-4" />,
+        href: "https://www.linkedin.com/in/parijat-bhatt/overlay/1635538520669/single-media-viewer/?profileId=ACoAACni-esBSydLQ7HU5dfT1pSQEqkvzrjy_CI",
+      },],
     },
     {
       title: "Circuit Untangled Event",
