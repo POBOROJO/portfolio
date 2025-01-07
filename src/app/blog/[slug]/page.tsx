@@ -1,3 +1,5 @@
+// src/app/blog/[slug]/page.tsx
+
 import { getBlogPosts, getPost } from "@/data/blog";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
@@ -5,27 +7,34 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
+// This is correct
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
   return posts.map((post) => ({ slug: post.slug }));
 }
 
+// Fix: Remove Promise from the return type since Next.js handles this internally
 export async function generateMetadata({
   params,
 }: {
-  params: {
-    slug: string;
-  };
-}): Promise<Metadata | undefined> {
-  let post = await getPost(params.slug);
+  params: { slug: string }
+}): Promise<Metadata> {  // Changed from Promise<Metadata | undefined>
+  const post = await getPost(params.slug);
+  if (!post) {
+    return {
+      title: 'Not Found',
+      description: 'The page could not be found',
+    };
+  }
 
-  let {
+  const {
     title,
     publishedAt: publishedTime,
     summary: description,
     image,
   } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
+
+  const ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
 
   return {
     title,
@@ -51,15 +60,14 @@ export async function generateMetadata({
   };
 }
 
-export default async function Blog({
-  params,
-}: {
-  params: {
-    slug: string;
-  };
-}) {
-  let post = await getPost(params.slug);
+// Fix: Add proper types for the page props
+interface PageProps {
+  params: { slug: string };
+}
 
+export default async function Blog({ params }: PageProps) {
+  const post = await getPost(params.slug);
+  
   if (!post) {
     notFound();
   }
@@ -101,7 +109,7 @@ export default async function Blog({
       <article
         className="prose dark:prose-invert"
         dangerouslySetInnerHTML={{ __html: post.source }}
-      ></article>
+      />
     </section>
   );
 }
