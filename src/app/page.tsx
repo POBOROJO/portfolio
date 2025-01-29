@@ -44,6 +44,7 @@ const slugs = [
   "neovim",
   "sonarqube",
   "figma",
+  "openai",
 ];
 
 export default function Page() {
