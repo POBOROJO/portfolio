@@ -80,7 +80,7 @@ export const DATA = {
       },
       "Download CV": {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/15JIUfSTEKsjBLvYlSaLyWcsR9QmjYf4B/view?usp=drive_link",
+        url: "https://drive.google.com/file/d/1tDxKn23v96Cz3WoOPfHZUORFL3NtG7wv/view?usp=sharing",
         icon: Icons.download,
         navbar: true,
       },
@@ -88,6 +88,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "The Boring Education",
+      href: "https://www.theboringeducation.com/",
+      badges: [],
+      location: "Remote",
+      title: "FullStack Developer Intern",
+      logoUrl: "https://ik.imagekit.io/tbe/webapp/logo.svg",
+      start: "December 2024",
+      end: "March 2025",
+      description:
+        "Developed and maintained scalable educational applications by implementing both frontend and backend using Next.js, TypeScript, and MongoDB, improving system efficiency by 40%. Built and optimized responsive UI components based on Figma designs, enhancing accessibility and user engagement by 30%. Implemented backend functionalities, managed API integrations, and optimized database queries, reducing data retrieval time by 50%. Conducted code reviews, debugging, and performance tuning, improving application scalability and reducing load times by 60%.",
+    },
     {
       company: "Littlebox",
       href: "https://littleboxindia.com/",
@@ -133,7 +145,14 @@ export const DATA = {
       active: true,
       description:
         "With a focus on making coding fun and insightful, I developed ChillGuy LeetCode Analyzer, a web app that calculates your Chill Guy Percentage based on LeetCode stats. It features personalized problem recommendations, profile comparisons, and tailored insights to boost motivation and skills, engaging 250+ daily users within its first week of launch.",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Gemini API", "Framer Motion", "Magic UI"],
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Gemini API",
+        "Framer Motion",
+        "Magic UI",
+      ],
       links: [
         {
           type: "Website",
@@ -146,9 +165,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "",
-      video: "https://utfs.io/f/NtrpVLRyI4W68OXRadJNfDhxLcKJO2Aui1lyZTedkYnsXVRr",
+      image: "",
+      video:
+        "https://utfs.io/f/NtrpVLRyI4W68OXRadJNfDhxLcKJO2Aui1lyZTedkYnsXVRr",
     },
     {
       title: "Kanha GPT",
@@ -217,7 +236,13 @@ export const DATA = {
       active: true,
       description:
         "I created a dynamic portfolio website using Next.js, featuring Magic UI for captivating animations and interactive components. This fully responsive platform showcases my projects and skills, utilizing a seamless blend of TypeScript, Tailwind CSS, and Framer Motion to deliver a visually engaging and professional online presence. Designed with markdown integration for easy updates, this portfolio reflects my expertise in crafting elegant and functional web solutions.",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Magic UI", "Framer Motion"],
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Magic UI",
+        "Framer Motion",
+      ],
       links: [
         {
           type: "Website",
@@ -230,9 +255,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "",
-      video: "https://utfs.io/f/NtrpVLRyI4W6SY7w3asPCLqz7vF1oDRY3fZn6M9isxpthNKI",
+      image: "",
+      video:
+        "https://utfs.io/f/NtrpVLRyI4W6SY7w3asPCLqz7vF1oDRY3fZn6M9isxpthNKI",
       unoptimized: true,
     },
     {
@@ -348,11 +373,13 @@ export const DATA = {
         "Earned 1st position in the 'DSA Code War' event as part of a skilled team.",
       image:
         "https://utfs.io/f/NtrpVLRyI4W6BzovznILscnE5TtZMhQqIlxHb6ueJGpUCz7S",
-      links: [{
-        title: "Link",
-        icon: <Icons.globe className="h-4 w-4" />,
-        href: "https://www.linkedin.com/in/parijat-bhatt/overlay/1635538520669/single-media-viewer/?profileId=ACoAACni-esBSydLQ7HU5dfT1pSQEqkvzrjy_CI",
-      },],
+      links: [
+        {
+          title: "Link",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.linkedin.com/in/parijat-bhatt/overlay/1635538520669/single-media-viewer/?profileId=ACoAACni-esBSydLQ7HU5dfT1pSQEqkvzrjy_CI",
+        },
+      ],
     },
     {
       title: "Circuit Untangled Event",
