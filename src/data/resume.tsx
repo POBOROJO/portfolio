@@ -171,7 +171,7 @@ export const DATA = {
     },
     {
       title: "Kanha GPT",
-      href: "https://kanha-gpt.netlify.app/",
+      href: "https://dearkrishna.me/",
       dates: "June 2024 - Present",
       active: true,
       description:
@@ -180,12 +180,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://kanha-gpt.netlify.app/",
+          href: "https://dearkrishna.me/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/POBOROJO/Kanha-GPT",
+          href: "https://github.com/POBOROJO/kanha-gita-dialogue",
           icon: <Icons.github className="size-3" />,
         },
       ],
